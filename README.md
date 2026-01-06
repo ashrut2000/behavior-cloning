@@ -143,17 +143,7 @@ To address **distribution shift** — where the policy encounters states not see
 python scripts/dagger.py --model_path models/policy.pt --num_episodes 20
 ```
 
-## Key Learnings
 
-1. **Demonstration quality matters more than quantity** — 30 clean, direct demonstrations outperformed 50 wandering ones
-
-2. **Cartesian control improves teleoperation** — Converting joint control to end-effector control made data collection intuitive
-
-3. **Visual feedback is essential** — Real-time distance display and colored indicators improved demonstration quality
-
-4. **Distribution shift is real** — The 15% failure rate occurred in states underrepresented in training data
-
-#
 ## References
 
 - [A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning](https://arxiv.org/abs/1011.0686) (DAgger paper)
