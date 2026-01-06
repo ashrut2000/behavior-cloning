@@ -1,0 +1,7 @@
+# Core dependencies
+numpy>=1.20.0
+torch>=1.9.0
+pybullet>=3.2.0
+
+# Optional for visualization
+matplotlib>=3.4.0
